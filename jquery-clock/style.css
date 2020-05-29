@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin:  0;
+}
+
+
+
+body
+{
+    background-color: #6FD1B5;   
+    font-family: fantasy;
+}
+
+
+
+.big-rect{
+    width: 50%;
+    height: 18vw;
+    background-color: aliceblue;
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    border-radius: 10px;
+    
+    
+}
+ 
+.small-objects-container{
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-rect{
+    width: 15%;
+    height: 10vw;
+    background-color: #472C4B;
+    margin: 3px;
+    border-radius: 10px;
+    font-size: 7vw;
+    text-align: center;
+    color: #FDB800;
+
+}
+
+.gap-between-hour-min{
+
+    width: 10px;
+    height: 15px;
+    background-color: #472C4B;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.second{
+    position: relatives;
+    overflow: hidden;
+    width: 10%;
+    height: 10vw;
+    background-color: #472C4B;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #FDB800;
+    display: flex;
+    align-items: center;
+}
+
+.triangle{
+    position: absolute;
+    float: right;
+    width: 10%;
+    height: 20px;
+    background-color: brown;
+    /* border-style: solid;
+    border-width: 1vw 0 1vw 6vh;
+    border-color: transparent transparent transparent #db4415; */
+}
+
+
+ul {
+
+    list-style-type: none;
+    position: relative;
+    float: right;
+    margin-top: 1064px;
+}
