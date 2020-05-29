@@ -1,13 +1,12 @@
 This is a clock sample made with jQuery 
 
-download the project
-open index.html in browser
+
 
 
 To start:
 
-    1.Download the project
-  
+
+    1.Download the project  
     2.Open index.html in browser
     
 
